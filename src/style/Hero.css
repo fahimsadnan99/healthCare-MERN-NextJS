@@ -1,0 +1,7 @@
+.heroLeftHeadline {
+    /* font-size: 35px; */
+    text-shadow: 0px 0px 2px black;
+
+    @apply text-[30px] md:text-[45px] lg:text-[35px] mx-1.5
+}
+

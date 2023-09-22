@@ -1,0 +1,29 @@
+
+.wrapper {
+    @apply lg:flex items-center justify-between 
+}
+.list {
+    @apply ml-5 lg:ml-0 mt-8 lg:mt-0 space-y-3 lg:space-y-0  lg:flex items-center justify-around  
+}
+.headerLink {
+    color: #2b2b2c;
+    @apply  block lg:inline-flex lg:ml-2 lg:px-2 lg:py-1 font-semibold 
+}
+
+.icon {
+    position: absolute;
+    top: 17px;
+    right: 50px;
+    font-size: 30px;
+
+    @apply lg:hidden 
+}
+.listVisible {
+    @apply visible 
+}
+
+@media screen and (max-width: 1023px) {
+    .listVisible{
+        @apply hidden
+    }
+  }
