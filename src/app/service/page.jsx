@@ -5,6 +5,7 @@ import Customer from "../components/Customer/Customer";
 import Subcription from "../components/Subcription/Subcription";
 import Faq from "../components/FAQ/Faq";
 import Appoinment from "../components/Appointment/Appoinment";
+import Accrodion from "../components/Accrodion/Accrodion";
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
         <ServiceProvide></ServiceProvide>
         <Customer></Customer>
         <Faq></Faq>
+        <Accrodion></Accrodion>
         <Subcription></Subcription>
       </div>
     </div>

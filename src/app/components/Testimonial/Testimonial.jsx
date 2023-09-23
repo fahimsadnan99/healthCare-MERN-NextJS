@@ -25,7 +25,7 @@ const testimonial = [
 const Testimonial = () => {
   return (
     <div>
-      <div className="text-center space-y-3 my-16">
+      <div className="text-center space-y-3 my-16 ">
         <p className="text-[#007E85] text-3xl font-semibold">Testimonial</p>
         <p className="text-[#333]">
           Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar <br></br>elementum

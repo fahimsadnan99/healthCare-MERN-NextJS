@@ -1,0 +1,18 @@
+.accrodion {
+    max-width: 400px;
+    @apply bg-white p-4 rounded-md 
+}
+
+.content {
+    overflow: hidden;
+    max-height: 0 !important;
+    transition:  0.5s !important;
+    
+}
+
+.conentActive {
+    max-height: fit-content;
+    transition:  0.5s !important;
+    @apply text-[#444] mt-3 ml-4
+    
+}

@@ -3,6 +3,7 @@
     @apply lg:flex items-center justify-between 
 }
 .list {
+    
     @apply ml-5 lg:ml-0 mt-8 lg:mt-0 space-y-3 lg:space-y-0  lg:flex items-center justify-around  
 }
 .headerLink {
@@ -19,6 +20,7 @@
     @apply lg:hidden 
 }
 .listVisible {
+    transition:  0.5s ease-in-out;
     @apply visible 
 }
 

@@ -4,5 +4,7 @@
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 90vh;
+    /* height: 90vh; */
+
+    @apply  md:h-[100%]    sm:h-[100%] lg:h-[90%] pb-10
 }

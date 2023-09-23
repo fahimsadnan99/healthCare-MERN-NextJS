@@ -15,12 +15,14 @@ const Customer = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 md:gap-y-7 lg:gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 md:gap-y-7 lg:gap-8  ">
         {Array(3)
           .fill(0)
           .map((item, ind) => {
             return (
-              <div className="px-5 py-5   bg-white rounded-lg space-y-4 mx-5 md:mx-5">
+              <div className="px-5 py-5 mt-5     bg-white rounded-lg space-y-4 mx-5 md:mx-5
+              
+              ">
                 <Image src={"/star.svg"} alt="start" width={100} height={20}></Image>
                 <p className="text-[#555] ">
                   Slate helps you see how many more days you need to work to reach your financial

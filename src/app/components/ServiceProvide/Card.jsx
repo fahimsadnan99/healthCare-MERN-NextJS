@@ -4,7 +4,7 @@ import React from 'react'
 const Card = ({item,id}) => {
     
   return (
-    <div className='px-5 py-5   bg-white rounded-lg space-y-4 mx-5 md:mx-5'>
+    <div className='px-5 py-5 mt-5  bg-white rounded-lg space-y-4 mx-5 md:mx-5'>
 
         <Image className='mx-auto' width={300} height={200} src={`/service${id}.svg`} alt={`${item?.title}`}></Image>
 
